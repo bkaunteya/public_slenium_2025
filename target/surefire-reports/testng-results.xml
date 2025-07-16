@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-16T20:04:07 IST" name="Selenium_Login_Suite" finished-at="2025-07-16T20:04:08 IST" duration-ms="984">
+    <groups>
+    </groups>
+    <test started-at="2025-07-16T20:04:07 IST" name="Login_Functionality_Test" finished-at="2025-07-16T20:04:08 IST" duration-ms="984">
+      <class name="testcases.LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTests@79e2c065]" started-at="2025-07-16T20:03:56 IST" name="setup" finished-at="2025-07-16T20:04:07 IST" duration-ms="11536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:testcases.LoginTests@79e2c065]" started-at="2025-07-16T20:04:07 IST" name="setupLoginPage" finished-at="2025-07-16T20:04:07 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLoginPage -->
+        <test-method signature="testLogin()[pri:0, instance:testcases.LoginTests@79e2c065]" started-at="2025-07-16T20:04:07 IST" name="testLogin" finished-at="2025-07-16T20:04:08 IST" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:testcases.LoginTests@79e2c065]" started-at="2025-07-16T20:04:08 IST" name="tearDownSuite" finished-at="2025-07-16T20:04:09 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- testcases.LoginTests -->
+    </test> <!-- Login_Functionality_Test -->
+  </suite> <!-- Selenium_Login_Suite -->
+</testng-results>

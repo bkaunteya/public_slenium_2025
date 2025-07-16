@@ -1,0 +1,3 @@
+seleniumtests\LoginPage.class
+seleniumtests\TestClass.class
+com\base\qa\BaseTest.class
