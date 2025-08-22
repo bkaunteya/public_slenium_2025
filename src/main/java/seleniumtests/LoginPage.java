@@ -14,19 +14,19 @@ public class LoginPage {
 	// driver as local variable
 	public LoginPage(WebDriver driver){
 		this.driver = driver;
-		PageFactory.initElements(driver, this); // Initialize WebElements
+		PageFactory.initElements(driver, this); // Initialize WebElements so you can use directly in methods
 	}
 	
 
-	@FindBy (xpath = "//input[@id='luser']") private WebElement email;
-	@FindBy (xpath= "//input[@id='password']") private WebElement password;
-	@FindBy (xpath = "//button[normalize-space()='Sign In']") private WebElement siginbutton;
+	@FindBy (xpath = "//input[@placeholder='Username']") private WebElement usrname;
+	@FindBy (xpath= "//input[@placeholder='Password']") private WebElement password;
+	@FindBy (xpath = "//button[normalize-space()='Login']") private WebElement siginbutton;
 
 	//Action methods
 	
 	public void setUserName(String user) {
-		if(email!=null) {
-			email.sendKeys(user);
+		if(usrname!=null) {
+			usrname.sendKeys(user);
 		}
 		else {
 			System.out.println("Email element is not initialized.");
